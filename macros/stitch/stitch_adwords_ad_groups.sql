@@ -24,10 +24,8 @@ ad_groups_renamed as (
         basecampaignid as base_campaign_id,
         campaignid as campaign_id,
         campaignname as campaign_name,
-        settings,
         status,
-        "_SDC_CUSTOMER_ID" as account_id,
-        labels
+        "_SDC_CUSTOMER_ID" as account_id
 
     from ad_groups_source
 

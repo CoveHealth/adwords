@@ -20,7 +20,6 @@ ads_renamed as (
         adgroupid as ad_id,
         baseadgroupid as base_ad_group_id,
         basecampaignid as base_campaign_id,
-        policysummary as policy_summary,
         status,
         "_SDC_CUSTOMER_ID" as account_id
 

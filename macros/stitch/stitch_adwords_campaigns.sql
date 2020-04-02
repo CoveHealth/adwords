@@ -26,10 +26,8 @@ campaigns_renamed as (
         startdate as start_date,
         enddate as end_date,
         servingstatus as serving_status,
-        settings,
         status,
-        "_SDC_CUSTOMER_ID" as account_id,
-        labels
+        "_SDC_CUSTOMER_ID" as account_id
 
     from campaigns_source
 
